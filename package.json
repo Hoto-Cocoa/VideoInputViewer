@@ -1,0 +1,23 @@
+{
+  "name": "video-input-viewer",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoto-Cocoa/VideoInputViewer.git"
+  },
+  "scripts": {
+    "build-win": "electron-packager . VideoInputViewer --platform=win32 --arch=x64 --electron-version=8.2.0 --overwrite",
+    "build-darwin": "electron-packager . VideoInputViewer --platform=darwin --arch=x64 --electron-version=8.2.0 --overwrite",
+    "build-linux": "electron-packager . VideoInputViewer --platform=linux  --arch=x64 --electron-version=8.2.0 --overwrite"
+  },
+  "author": "Hoto-Cocoa",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hoto-Cocoa/VideoInputViewer/issues"
+  },
+  "homepage": "https://github.com/Hoto-Cocoa/VideoInputViewer#readme",
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}
