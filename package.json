@@ -1,6 +1,6 @@
 {
   "name": "video-input-viewer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./src/main.js",
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Hoto-Cocoa/VideoInputViewer#readme",
   "devDependencies": {
     "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "electron": "^8.2.0"
   }
 }
